@@ -1,4 +1,4 @@
-#####!/bin/bash
+####333###!/bin/bash
 
 function run-cmd ()
 {
@@ -81,7 +81,7 @@ sub-install-nomachine ()
  echo ""
  echo ""
  echo "================================================================="
- echo " Install NoMachine v8.4.1 amd64  "
+ echo " Install NoMachine v8.14.1 amd64  "
  echo "-----------------------------------------------------------------"
  read -p "Proceed ? (Y/n)" choice
  if [ "$choice" = "n" ]
@@ -148,7 +148,7 @@ sub-configue-nomachine-user ()
 fi
 }
 
-####################################################
+#######################################################
 
 #----------------------#
 # MAIN ROUTINE FOLLOWS #
@@ -248,7 +248,7 @@ sub-install-nomachine ()
  echo ""
  echo ""
  echo "================================================================="
- echo " Install NoMachine v8.4.1 amd64  "
+ echo " Install NoMachine v8.14.1 amd64  "
  echo "-----------------------------------------------------------------"
  read -p "Proceed ? (Y/n)" choice
  if [ "$choice" = "n" ]
@@ -259,8 +259,8 @@ sub-install-nomachine ()
        echo "Bypassing...." 
     else 
        echo "Running..."
-       sudo wget https://download.nomachine.com/download/8.4/Linux/nomachine_8.4.2_1_amd64.deb
-       sudo apt install -f ./nomachine_8.4.2_1_amd64.deb
+       sudo wget https://download.nomachine.com/download/8.14/Linux/nomachine_8.14.2_1_amd64.deb
+       sudo apt install -f ./nomachine_8.14.2_1_amd64.deb
 fi
 }
 
